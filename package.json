@@ -1,0 +1,24 @@
+{
+  "name": "fitness-news",
+  "version": "1.0.0",
+  "description": "Latest content from personally chosen fitness channels/creators/articles",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "cd server && bestzip ../app.zip server.js contentUpdate.js package.json",
+    "start-server": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbasnake/fitness-news.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abbasnake/fitness-news/issues"
+  },
+  "homepage": "https://github.com/abbasnake/fitness-news#readme",
+  "devDependencies": {
+    "bestzip": "^2.1.2"
+  }
+}
